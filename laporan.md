@@ -48,19 +48,19 @@ Pada univerate Analisis terdapat beberapa data yang dilakukan analisis dengan me
 
 <!-- Maaf sebelumnya kak untuk gambar dibawah, ditempat saya bisa ditampikan. dan saya sudah melakukan download ulang beberapa kali dan di device saya masih dapat ditampilkan. Saya tidak tau permasalahan tidak tertampilkannya seperti pada lampiran perbaikan -->
 
-![Furnishing](/Predictive%20Analytics/u1.png)
+![Furnishing](u1.png)
 
 Gambar diatas menunjukkan properti lebih banyak memakai tipe yang telah setengah berfuniture dibandingkan tipe yang berfunitur. Presentase pada gambar tersebut adalah 56,1 : 30,2 : 13,7
 
-![Status](/Predictive%20Analytics/u2.png)
+![Status](u2.png)
 
 Gambar diatas menunjukkan properti lebih banyak berstatus 'siap' dibandingkan 'masih dalam pengembangan'. Presentase gambar tersebut adalah 94,4 : 5,6.
 
-![Transaction](/Predictive%20Analytics/u3.png)
+![Transaction](u3.png)
 
 Gambar diatas menunjukkan properti lebih banyak yang ditransaksikan denga menjual kembali daripada properti baru. presentase gambar tersebut adalah 63,1 : 36,9.
 
-![Furnishing](/Predictive%20Analytics/u4.png)
+![Furnishing](u4.png)
 
 Gambar diatas menunjukkan properti lebih banyak bertipe bangunan berlantai dibanding apartemen. presentase pada gambar tersebut adalah 51,5 : 48,5.
 
@@ -68,12 +68,12 @@ Gambar diatas menunjukkan properti lebih banyak bertipe bangunan berlantai diban
 
 Pada multivariate analysis mengidentifikasikan rata-rata relatif dari harga dengan beberapa fitur yang ditunjukkan pada gambar.
 
-![multivariate](/Predictive%20Analytics/m1.png)
+![multivariate](m1.png)
 Gambar diatas menunjukkan bahwa diagram pertama harga pada properti setengah berfurnitur paling tinggi dibanding tidak berfurnitur. Kemudian pada diagram kedua harga pada properti status dalam pembangunan paling tinggi dibanding properti yang siap. Diagram ketiga, harga properti baru paling tinggi dibanding properti yang dijual kemabli. Diagram terakhir, harga properti tipe bangunan lebih tinngi dibandinglan apartemen.
 
 ### Correlation Matrix
 
-![correlation](/Predictive%20Analytics/c1.png)
+![correlation](c1.png)
 Pada correlation matrix dapat diambil kesimpulan dimana fungsi target 'Price', nilai korelasi terlemah jatuh pada 'Parking'. Sehingga data parking tidak diperlukan dalam melakukan prediksi. Dimana nilai korelasi 'Parking sebesar 0,34.
 
 
@@ -83,7 +83,8 @@ Sebelum dilakukan pembagian data, terdapat beberapa kategori pada kolum yang per
 
 Fungsi OneHotEncoder berfungsi untuk mendapatkan fitur baru yang sesuai sehingga dapat mewakili variabel kategori.Sedangkan PCA adalah teknik untuk mereduksi dimensi, mengekstraksi fitur, dan mentransformasi data dari “n-dimensional space” ke dalam sistem berkoordinat baru dengan dimensi m, di mana m lebih kecil dari n.
 
-![PCA](/Predictive%20Analytics/pca.png)
+![PCA](pca.png)
+<!-- Coba -->
 
 Akan dilakukan reduksi fitur (dimensi) dan hanya mempertahankan PC (komponen) pertama saja. PC pertama ini akan menjadi fitur dimensi menggantikan ketiga fitur lainnya ('Area','Bathroom', 'BHK'). Kita beri nama fitur ini 'dimension'. Dimana menggunakan 1 komponen dengn random sebanyak 123 kali.
 
